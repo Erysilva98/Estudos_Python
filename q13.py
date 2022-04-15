@@ -1,44 +1,18 @@
-# 13 - Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Não utilize a função de potência da linguagem. 
+print('13 - Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:')
 
-print('Vamos Calcular a Base e o Expoete de um Número \n')
+# Para homens: (72.7*h) - 58')
+# Para mulheres: (62.1*h) - 44.7')
 
-base = int(input('Informe um Número Inteiro para a Base: '))
-expo = int(input('Informe um Número Inteiro para o Expoente: '))
+sexo = int (input('\nInforme seu Sexo : (1) Masculino ou (2) Feminino '))
+nome = str (input('\nDigite seu Nome: '))
+h    = float (input('\nInforme sua Altura ex:(1.50) : '))
 
-elevado = 1
-cont = 1
+if sexo == 1:
+    peso = (72.7 * h) - 58
+    print('\nO Peso Ideal para',nome,'é ',peso)
 
-while cont <= expo:
-    elevado *= base
-    cont+=1
- 
-print('A Base',base,'Elevada ao Expoente',expo,'=',elevado)
-
-# print("base ^ expoente:")
-# base=int(input("Base: "))
-# expoente=int(input("Expoente: "))
-
-# potencia=1
-# count=1
-
-# while count <= expoente:
-#     potencia *= base
-#     count +=1
-
-# print(base,"^",expoente,"=",potencia)
-
-
-# Exercício resolvido usando laço FOR
-
-# print("base ^ expoente:")
-# base=int(input("Base: "))
-# expoente=int(input("Expoente: "))
-
-# potencia=1
-
-# for count in range(expoente):
-#     potencia *= base
-#     count += 1
-
-# print(base,"^",expoente,"=",potencia)
-
+elif sexo == 2:
+    peso = (62.1 * h) - 44.7
+    print('\nO Peso Ideal para',nome,'é ',peso)
+else:
+    print('\nOpção de sexo Invalida')

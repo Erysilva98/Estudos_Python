@@ -1,13 +1,10 @@
-# 8- Faça um programa que leia 5 números e informe a soma e a média dos números. 
+print ('4 - Faça um Programa que peça as 4 notas bimestrais e mostre a média. ')
 
-num1 = int(input('Digite o 1° Número Inteiro: '))
-num2 = int(input('Digite o 2° Número Inteiro: '))
-num3 = int(input('Digite o 3° Número Inteiro: '))
-num4 = int(input('Digite o 4° Número Inteiro: '))
-num5 = int(input('Digite o 5° Número Inteiro: '))
+num1 = int (input('Informe a sua 1 Nota: '))
+num2 = int (input('Informe a sua 2 Nota: '))
+num3 = int (input('Informe a sua 3 Nota: '))
+num4 = int (input('Informe a sua 4 Nota: '))
 
-soma = num1 + num2 + num3 + num4 + num5
+media = (num1 + num2 + num3 + num4) / 4
 
-media = soma / 5
-
-print('A Soma dos Números é :',soma,' a Média dos números é: ',media)
+print('Sua Média e',media)
