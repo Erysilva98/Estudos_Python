@@ -10,10 +10,18 @@ https://www.pythonprogressivo.net/2018/06/Lista-Exercicios-Lacos-Looping-Python.
 
 https://wiki.python.org.br/EstruturaSequencial
 
+#### Lista 3
+
+https://wiki.python.org.br/EstruturaDeDecisao
+
+#### Lista 4
+
+https://wiki.python.org.br/EstruturaDeRepeticao
 
 
- 
-#### Resoluçoes 
+#### Simulado
 
-    As Correções do site estão em um comentário abaixo da linha de cada código resolvido.
+Obs: Lista de excercício em Simulador.Pdf
+
+
 
